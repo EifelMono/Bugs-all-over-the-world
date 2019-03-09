@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFrameworks>net461;net471;netcoreapp2.0;netcoreapp2.1;netcoreapp2.2;netcoreapp3.0</TargetFrameworks>
+    </PropertyGroup>
+    <ItemGroup>
+        <AssemblyAttribute Include="AssemblyAttributeTest.BuildMachineNameAttribute">
+            <_Parameter1>$([System.Environment]::MachineName)</_Parameter1>
+        </AssemblyAttribute>
+    </ItemGroup>
+</Project>
