@@ -1,4 +1,4 @@
-DocFX close terminate the terminal
+Terminal Window closes with error on terminate a DocFx process in the terminal
 
 Visual studio Code 1.32.1
 DocFx 2.40.12.0
